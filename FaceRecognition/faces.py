@@ -58,7 +58,7 @@ def main():
             id_, conf = recognizer.predict(roi_gray)
 
             # 3.1 If the face is recognized
-            if conf >= 30:
+            if conf >= 20:
                 success = True
                 # print(id_)
                 # print(labels[id_])
