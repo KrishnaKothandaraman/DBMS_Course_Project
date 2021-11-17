@@ -197,7 +197,7 @@ class UI_Form(object):
         result = cursor.fetchall()
         print(result)
 
-        bot = telegram.Bot(token="2146272419:AAGDSh89UKqIrlW8dlJx3kssS2YSvCdKchU")
+        bot = telegram.Bot(token="xxxx")
         chatID = result[0][0]
 
         bot.sendMessage(chat_id=chatID,
